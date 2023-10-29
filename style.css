@@ -84,12 +84,16 @@ h1 {
     }
 
     .social-icons img {
-        max-width: 80px; /* Hier die gewünschte Größe anpassen */
+        max-width: 80px;
+        height: auto; 
         margin: 10px 0;
     }
 
     .speedGIF {
-        max-width: 100%; /* Das GIF an die Bildschirmbreite anpassen */
+        max-width: 100%; 
+        height: auto; 
     }
+}
+
 }
 
