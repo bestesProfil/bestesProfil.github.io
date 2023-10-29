@@ -56,3 +56,35 @@ h1 {
     border-radius: 25px;
 }
 
+/* Mobile-Ansicht */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        margin-top: 20px;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .logo img {
+        max-width: 100px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+
+    .social-icons img {
+        max-width: 100px;
+        margin: 10px 0;
+    }
+}
